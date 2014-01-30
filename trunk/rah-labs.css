@@ -167,6 +167,23 @@ h3.post-title {  background: none repeat scroll 0 0 #F2F2F2; float: left;padding
 	font-size: 12px;
 	text-decoration: underline;
 }
+.program {
+	background: #efefef;
+	display:block!important;
+	border-bottom:: 1px inset;
+	border-right:: 1px inset;
+	padding: 6px;
+	margin: 0;
+}
+.program:hover{ border:none;}
+.define{
+	background:no-repeat scroll 10px 20px #F0F0F0;
+	padding:10px;
+	box-shadow:none;
+	border:dotted 1px #2f6fab;
+}
+.define:hover{ border:none;}
+.post h1,h2,h3,h4,h5,h6 {border-bottom:solid 1px #ccc;}
 
 .socialshare {
 	border-bottom: 1px solid #DDDDDD;
@@ -326,6 +343,8 @@ img:hover.post-thumbnail  {
 .separator img{
 	border-radius: 15px;
 	box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+	clear:both;
+	text-align:center;
 	-webkit-transition-duration: 0.3s;
    	-webkit-transition-property: -webkit-transform;
  	-webkit-transform: translateZ(0);
@@ -341,12 +360,3 @@ img:hover.post-thumbnail  {
 -webkit-transform: scale(1.5);
 transform: scale(1.5);
 }
-.program{}
-.define{
-	background:no-repeat scroll 10px 20px #F0F0F0;
-	padding:10px;
-	box-shadow:none;
-	border:dotted 1px #2f6fab;
-}
-.define:hover{ border:none;}
-.post h1,h2,h3,h4,h5,h6 {border-bottom:solid 1px #ccc;}
