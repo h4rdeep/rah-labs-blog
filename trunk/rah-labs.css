@@ -165,7 +165,7 @@ h3.post-title {  background: none repeat scroll 0 0 #F2F2F2; float: left;padding
     color: #FF0000;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 12px;
-	text-decoration: underline;
+	display:inline;
 }
 .program {
 	background: #efefef;
