@@ -37,7 +37,7 @@ a img{border-width:0}
 .post h3{font-size:20px;font-weight:normal;line-height:1.2em;margin-bottom:10px;margin-top:0}
 .post h3 a,.post h3 a:visited{color:#0060A6;display:block;text-decoration:none}
 .post h3 a:hover{color:#FF0084}
-.post-body{line-height:1.6em;margin:0 0 0.75em}
+.post-body{line-height:1.6em;margin:0 0 0.75em; width:auto!important;}
 .post-body blockquote{line-height:1.3em}
 .post-footer{margin:1em 0 0;text-transform:none}
 .comment-link{margin-left:0.6em}
