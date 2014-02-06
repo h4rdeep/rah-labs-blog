@@ -21,7 +21,7 @@ a img{border-width:0}
 #header{width:480px;float:left;}
 #header h1 {color:#000;font-size:35px;text-align:left; margin:50px 0 0 0px;line-height:1.2em}
 #header p {color:#000;font-size:20px;text-align:left; margin:0;line-height:1.2em}
-#header img{padding:50px 0 0}
+#header img{padding:20px 15px 0;}
 #header-qc {float:right; width:480px;height:68px;margin: 67px 0 0 0}
 #outer-wrapper{background:transparent;font-family:Segoe UI,Arial;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0 auto;padding-top:0;text-align:left;width:1020px}
 #main-wrapper{font-size:100%;overflow:hidden;width:100%;word-wrap:break-word; background:#FFFFFF repeat 0 0 none;}
@@ -97,7 +97,17 @@ a img{border-width:0}
 .sidebar ul{margin:0;padding:0; list-style-type: none;}
 .sidebar li{margin:0;padding:5px 0}
 #menu-module{width:100%;}
-.mattblackmenu ul{margin:0;padding:0;list-style-type:none;background:none repeat scroll 0 0 #2B5797;overflow:hidden;width:1020px;margin:0 auto}
+.mattblackmenu ul{ 
+	background: url("http://www.exploit-db.com/wp-content/themes/exploit/images/nav_bg.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+    border: 2px solid #222222;
+    height: 30px;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 8px 3px;
+    width: 1013px;
+	list-style-type:none;
+	overflow:hidden;width:1020px;}
 .mattblackmenu li{display:inline;margin:0}
 .mattblackmenu li a{font-size:18px;float:left;display:block;text-decoration:none;margin:0;padding:10px 12px;color:#fff}
 .mattblackmenu li a:visited{color:#fff}
