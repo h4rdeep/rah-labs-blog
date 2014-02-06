@@ -135,8 +135,8 @@ a img{border-width:0}
 .mattblackmenu li a:visited{color:#fff}
 .mattblackmenu li a:hover { background: none repeat scroll 0 0 #2D89EF; color: #003333; transition: all 0.1s ease-in-out 0s; }
 .mattblackmenu a.selected{background:#000;}
-.post-title {     background: none repeat scroll 0 0 #F2F2F2;margin-left: -15px;padding: 5px 5px 5px 12px;width: 685px;}
-h3.post-title {  background:transparent; float: left;margin:0;}
+.post-title {     background: none repeat scroll 0 0 #F2F2F2;margin-left: -15px;padding: 5px 5px 5px 12px;width: auto;}
+h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 .ddsubmenustyle,.ddsubmenustyle div{font-size:15px;margin:0;padding:0;position:absolute;left:0;top:0;list-style-type:none;background:#000;border-bottom-width:0;visibility:hidden;z-index:100}
 
 .ddsubmenustyle ul{margin:0;padding:0;position:absolute;left:0;top:0;list-style-type:none;border:0 none}
@@ -176,3 +176,4 @@ h3.post-title {  background:transparent; float: left;margin:0;}
     float: left;
     margin-right: 7px!important;
 }
+.snippet {display:none;}
