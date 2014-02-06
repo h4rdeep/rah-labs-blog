@@ -109,7 +109,18 @@ a img{border-width:0}
 	list-style-type:none;
 	overflow:hidden;width:1020px;}
 .mattblackmenu li{display:inline;margin:0}
-.mattblackmenu li a{font-size:18px;float:left;display:block;text-decoration:none;margin:0;padding:10px 12px;color:#fff}
+.mattblackmenu li a{display:block;text-decoration:none;margin:0;
+	border-color: #444444 #000000 #000000 #444444;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #BBBBBB;
+    float: left;
+    font: 11px Arial,sans-serif;
+    letter-spacing: 0.04em;
+    padding: 5px 8px;
+    text-transform: uppercase;
+	}
 .mattblackmenu li a:visited{color:#fff}
 .mattblackmenu li a:hover { background: none repeat scroll 0 0 #2D89EF; color: #003333; transition: all 0.1s ease-in-out 0s; }
 .mattblackmenu a.selected{background:#000;}
