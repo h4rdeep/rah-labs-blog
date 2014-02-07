@@ -185,7 +185,7 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
     width: 100%;	
 }
 .index tr{background:none repeat scroll 0 0 #131313;}
-.index td {border:solid 1px; height: 18px; overflow:hidden; padding:3px; vertical-align:middle;}
+.index td {height: 18px; overflow:hidden; padding:3px; vertical-align:middle;}
 .interactions{width:25px;}
 .date{width:101px; text-align:center; text-decoration:none;}
 .author{width:89px; display:block; text-align:center; overflow:hidden;}
