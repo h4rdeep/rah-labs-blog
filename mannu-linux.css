@@ -177,3 +177,12 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
     margin-right: 7px!important;
 }
 .snippet {display:none;}
+.index{	
+	border:solid 1px;
+	display:block;
+	overflow:hidden;	
+}
+.index td {display:block; border:solid 1px; height: 25px;}
+.interactions{
+}
+.date{width:125px;}
