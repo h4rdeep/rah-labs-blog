@@ -25,7 +25,7 @@ a img{border-width:0}
 #header p {color:#000;font-size:20px;text-align:left; margin:0;line-height:1.2em}
 #header img{padding:20px 15px 0;}
 #header-qc {float:right; width:480px;height:68px;margin: 67px 0 0 0}
-#outer-wrapper{background:transparent;font-family:Segoe UI,Arial;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0 auto;padding-top:0;text-align:left;width:1013px}
+#outer-wrapper{background:transparent;font-family:Segoe UI,Arial;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0 auto;padding-top:20px;text-align:left;width:1013px}
 #main-wrapper{
 	border: 2px solid #222222;
     border-radius: 4px;
