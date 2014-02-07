@@ -178,16 +178,18 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 }
 .snippet {display:none;}
 .index{	
-	border:solid 1px;
-	display:block;
 	overflow:hidden;
 	border-collapse: separate;
     border-spacing: 2px;
-    font-size: 12px;
+    font-size: 13px;
     width: 100%;	
 }
 .index tr{background:none repeat scroll 0 0 #131313;}
-.index td {border:solid 1px; height: 25px; overflow:hidden; padding:3px;}
-.interactions{}
-.date{width:125px; display:block;}
-.author{width:108px; display:block;}
+.index td {border:solid 1px; height: 18px; overflow:hidden; padding:3px; vertical-align:middle;}
+.interactions{width:25px;}
+.date{width:101px; text-align:center; text-decoration:none;}
+.author{width:89px; display:block; text-align:center; overflow:hidden;}
+.label{width:210px;}
+.title{width:480px;}
+.title a {color:#FF6600;}
+.title a:visited {color:#787878;}
