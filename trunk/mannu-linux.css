@@ -180,9 +180,14 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 .index{	
 	border:solid 1px;
 	display:block;
-	overflow:hidden;	
+	overflow:hidden;
+	border-collapse: separate;
+    border-spacing: 2px;
+    font-size: 12px;
+    width: 100%;	
 }
-.index td {display:block; border:solid 1px; height: 25px;}
-.interactions{
-}
-.date{width:125px;}
+.index tr{background:none repeat scroll 0 0 #131313;}
+.index td {border:solid 1px; height: 25px; overflow:hidden; padding:3px;}
+.interactions{}
+.date{width:125px; display:block;}
+.author{width:108px; display:block;}
