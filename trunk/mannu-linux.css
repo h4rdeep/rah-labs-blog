@@ -134,15 +134,22 @@ a img{border-width:0}
     text-transform: uppercase;
 	}
 .mattblackmenu li a:visited{color:#fff}
-.mattblackmenu li a:hover { background: none repeat scroll 0 0 #2D89EF; color: #003333; transition: all 0.1s ease-in-out 0s; }
+.mattblackmenu li a:hover {
+    background: url("http://www.exploit-db.com/wp-content/themes/exploit/images/nav-black.png") repeat-x scroll left top #3E3E3E;
+    color: #FFFFFF;
+    transition: all 0.1s ease-in-out 0s;
+}
 .mattblackmenu a.selected{background:#000;}
-.post-title {     background: none repeat scroll 0 0 #F2F2F2;margin-left: -15px;padding: 5px 5px 5px 12px;width: auto;}
+.post-title {     background: none repeat scroll 0 0 #181818;padding: 5px 5px 5px 12px;width: auto;color: #FF6600 !important;}
 h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 .ddsubmenustyle,.ddsubmenustyle div{font-size:15px;margin:0;padding:0;position:absolute;left:0;top:0;list-style-type:none;background:#000;border-bottom-width:0;visibility:hidden;z-index:100}
 
 .ddsubmenustyle ul{margin:0;padding:0;position:absolute;left:0;top:0;list-style-type:none;border:0 none}
 .ddsubmenustyle li a{text-align:left;display:block;width:170px;color:#fff; background:none repeat scroll 0 0 transparent;text-decoration:none;padding:5px 5px 5px 10px;}
-.ddsubmenustyle li a:hover{background: none repeat scroll 0 0 #2D89EF;color:#fff;}
+.ddsubmenustyle li a:hover {
+    background: url("http://www.exploit-db.com/wp-content/themes/exploit/images/nav-black.png") repeat-x scroll left top #3E3E3E;
+    color: #FFFFFF;
+}
 .downarrowpointer{padding-left:4px;border:0}
 .rightarrowpointer{position:absolute;padding-top:3px;left:100px;border:0}
 .ddiframeshim{position:absolute;z-index:500;background:transparent;border-width:0;height:auto!important; width:auto!important;display:none;}
