@@ -194,3 +194,13 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 .title{width:480px;}
 .title a {color:#FF6600;}
 .title a:visited {color:#787878;}
+.separator{text-align:center;}
+.separator img{ 
+	clear:both;
+	text-align:center;
+	max-width:700px;	
+
+}
+.separator img:hover{
+	transform:scale(1.2);
+}	
