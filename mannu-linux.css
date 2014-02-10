@@ -210,4 +210,5 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 }
 .separator img:hover{
 	transform:scale(1.2);
-}	
+}
+.timestamp-link abbr {border:none;}
