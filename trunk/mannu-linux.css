@@ -215,7 +215,7 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 .index-head {padding-left:35px; width:100%;}
 .index-head tr{background:none;}
 .intro {
-	font:bold 2.6em Arial,Verdana,sans-serif;
+	padding:0 15px 15px;
 }
 .intro h1 {margin-bottom: 10px; font: bold 2.6em Arial,Verdana,sans-serif; letter-spacing: -1px;}
 .intro p {
