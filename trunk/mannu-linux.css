@@ -219,7 +219,6 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 }
 .intro h1 {margin-bottom: 10px; font: bold 2.6em Arial,Verdana,sans-serif; letter-spacing: -1px;}
 .intro p {
-    border: 1px solid;
     left: 40px;
     position: relative;
     text-align: justify;
