@@ -212,4 +212,5 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 	transform:scale(1.2);
 }
 .timestamp-link abbr {border:none;}
+.index-head {padding-left:35px; width:100%;}
 .index-head tr{background:none;}
