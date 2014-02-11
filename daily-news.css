@@ -6,6 +6,8 @@
 visibility:hidden;
 display: none;
 }
+#Navbar1 {display:none;}
+#Attribution1{display:none;}
 
 
 /* Reset */
