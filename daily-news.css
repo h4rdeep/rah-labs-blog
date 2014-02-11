@@ -1,3 +1,5 @@
+/*daily news css*/
+
 /* Navbar Frame
 ----------------------------- */
 #sidebar .tab_content .widget h2,.navbar {
@@ -732,7 +734,8 @@ div.scrollingtext{
 	#footer .widget h2 { /* Footer widget titles */margin-bottom:5px;font:bold 15px arial, tahoma, sans-serif;letter-spacing:0px;color:#efefef;padding:0 0 5px;border-bottom:1px dotted #333;text-transform:uppercase}
 
 	#foo_widget1 {width:240px;float:left;margin-right:15px;}
-	#foo_widget2 {width:240px;float:left;}#foo_widget3 {width:400px;float:right;}
+	#foo_widget2 {width:240px;float:left;}
+	#foo_widget3 {width:400px;float:right;}
 	
 	/* footer meta */
 	#footer_data {width:970px;font-size:11px;margin:0 auto;padding:15px 0 10px;display:block;overflow:hidden;color:#333}
