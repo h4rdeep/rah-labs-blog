@@ -1451,3 +1451,5 @@ text-decoration:none;
 .heading h1 {  line-height:1.2em; font-size:18px;  color:#333; text-transform:uppercase;top:0; }
 .heading a {font-size:0px;}
 .heading b{font-size:18px;}
+.top-left{width:70%; float:left;}
+.top-right{float:right;}
