@@ -107,7 +107,7 @@ h6 { font-size:12px; }
 	/*----- [[ Tab color scheme: light ]] -----*/
 	.tabs-wrapper {color:#222}
 	.tabs-wrapper .tabs {border-bottom:1px solid #cfcfcf;margin:0}
-	.tabs-wrapper .tabs a { background: none #F2F2F2  !important;border:1px solid #cfcfcf!important;color:#222 !important; font: 13px 'Russo One', sans-serif;}
+	.tabs-wrapper .tabs a { background: none #F2F2F2  !important;border:1px solid #cfcfcf!important;color:#222 !important; font: 13px/32px 'Russo One', sans-serif; }
 	.tabs-wrapper .tabs a:hover {color:#222;}
 	.tabs-wrapper .tabs .current, .tabs .current:hover, .tabs li.active a {background-color:#fff !important;color:#222 !important;border-bottom:none!important;}
 	.tabs-wrapper .tabs_container .tab_content{background-color:#fff!important;border:1px solid #cfcfcf !important;border-top:none!important;padding:5px;}
