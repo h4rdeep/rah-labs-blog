@@ -445,12 +445,13 @@ form.search_style2 fieldset{margin:0;padding:0;border:none;width:300px;height:30
 li#current-home-nav a{background:url(http://3.bp.blogspot.com/-SJHB12hIAVI/UD4Ci0Mr2gI/AAAAAAAACVc/K88D8orwEcg/s1600/menu_home.png) left no-repeat;background-position:8px 7px;padding-left:33px!important;color:#fff!important;}li#current-home-nav a:hover{background:url(http://3.bp.blogspot.com/-SJHB12hIAVI/UD4Ci0Mr2gI/AAAAAAAACVc/K88D8orwEcg/s1600/menu_home.png) left no-repeat;background-position:8px 7px;padding-left:33px!important;color:#fff!important;}
 
 	/* ={ MAIN NAVIGATION } */
-	#mainmenu {display:block;background:#fff;border-top:1px solid #222;border-bottom:1px solid #ddd; margin:0 -10px !important;}
-	.mainnav li.first {background:#222}.mainnav li.first a {color:#fff;font:20px/23px 'Open Sans Condensed', sans-serif;}.mainnav li.first a:hover {color:#bbb;}
-		.mainnav {text-transform:uppercase;}
+	#mainmenu {display:block;background:#fff;border-top:1px solid #222;border-bottom:1px solid #ddd; margin:0 -10px !important; 
+		font:16px Oswald;color:#333333;}
+	.mainnav li.first {background:#222}.mainnav li.first a {color:#fff;}.mainnav li.first a:hover {color:#bbb;}
+		.mainnav {text-transform:none;}
 		.mainnav:after{content:"";display:block;clear:both;}
-		.mainnav li {float:left;position:relative;border-right:1px solid #ddd;}
-		.mainnav li a {color:#111;padding:3px 9px;font:23px/23px 'Open Sans Condensed', sans-serif;}
+		.mainnav li {float:left;position:relative;border-right:1px solid #ddd; padding:7px;}
+		.mainnav li a {color:#111;padding:3px 9px;}
 
 		.mainnav li.current_page_item a, .mainnav li.current-cat a, .mainnav li.current-menu-item a {color:#111;font: bold 15px/17px 'Droid Sans', "helvetica neue", helvetica, arial, sans-serif;}
 		.mainnav li a:hover,.mainnav li.sfHover a {color:#777;text-decoration:none;}
@@ -586,7 +587,7 @@ li#current-home-nav a{background:url(http://3.bp.blogspot.com/-SJHB12hIAVI/UD4Ci
 	}
 #headlines a.headline_title {
 	display: inline;
-	color: #333;
+	color: #fff;
 	font-weight: bold;
 	margin: 0px;
 	padding: 0px;
@@ -611,14 +612,14 @@ li#current-home-nav a{background:url(http://3.bp.blogspot.com/-SJHB12hIAVI/UD4Ci
 	}
 div.horizontal_scroller, div.vertical_scroller{
 	position: relative;
-	height: 20px;
+	height: 40px;
 	display: block;
 	overflow: hidden;
 	}
 div.scrollingtext{
 	position: absolute;
 	white-space: nowrap;
-	line-height: 20px;
+	line-height: 40px;
 	}
 
 
