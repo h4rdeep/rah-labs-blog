@@ -25,7 +25,7 @@ ol, ul {list-style:none;}
 li {line-height:120%;}
 dt { font-weight: bold; text-decoration: underline; } dd { margin: 0; padding: 0 0 0.5em 0; }
 
-body{font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:1.4;color:#333;background:#fff; }
+body{font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:1.4;color:#333;background:url("http://1.bp.blogspot.com/-xDKyjU9NgbE/UqXGUD5dKKI/AAAAAAAAHUA/_xbpdjTP0JQ/s1600/bg-61.jpg") repeat fixed center top #E5E5E5; }
 
 /*----- ={ Headings } -----*/
 
@@ -298,7 +298,7 @@ button[type]{ padding:4px 10px 4px 7px;  /* Firefox */ line-height:17px;  /* Saf
 button img, a.button img{ margin:0 3px -3px 0 !important;  padding:0;  border:none;  width:16px;  height:16px;  float:none}
 	
 
-#wrapers{width:960px;margin:0 auto;background:#fff; margin:0 auto;padding:0 10px;background:#fff;border-right:solid 0px #ddd;border-left:solid 0px #ddd;}
+#wrapers{width:1024px;margin:0 auto;background:#fff; margin:0 auto;padding:0 10px;background:#fff;border-right:solid 0px #ddd;border-left:solid 0px #ddd;}
 .flow_hide {width:100%;display:block;overflow:hidden}
 
 p { margin: 0 0 15px }
@@ -370,7 +370,7 @@ a:hover.view-all { background: url(http://4.bp.blogspot.com/-gxzxfh1m3pA/UIPfrTp
 		.author-info p a {font-style:normal;font-weight:bold;}
 
 /*  MASTHEAD */
-#masthead {background:#fff; display:block;overflow:hidden;padding:3px 0px;margin:0 auto;width:960px;border-top:3px solid #333;border-bottom:1px solid #999;}
+#masthead {background:#fff; display:block;overflow:hidden;padding:3px 10px;margin:0 auto;width:1024px;border-top:3px solid #333;border-bottom:1px solid #999;}
 	.mastheadnav { font-size: 13px;line-height:13px;width:650px;margin-top:5px;float:left}
 	.mastheadnav li {float:left;position:relative;color:#333;padding-left:0px;margin-left:10px;}
 	.mastheadnav li.first {border-left:none;padding-left:0;margin-left:0;}
@@ -440,7 +440,7 @@ form.search_style2 fieldset{margin:0;padding:0;border:none;width:300px;height:30
 li#current-home-nav a{background:url(http://3.bp.blogspot.com/-SJHB12hIAVI/UD4Ci0Mr2gI/AAAAAAAACVc/K88D8orwEcg/s1600/menu_home.png) left no-repeat;background-position:8px 7px;padding-left:33px!important;color:#fff!important;}li#current-home-nav a:hover{background:url(http://3.bp.blogspot.com/-SJHB12hIAVI/UD4Ci0Mr2gI/AAAAAAAACVc/K88D8orwEcg/s1600/menu_home.png) left no-repeat;background-position:8px 7px;padding-left:33px!important;color:#fff!important;}
 
 	/* ={ MAIN NAVIGATION } */
-	#mainmenu {display:block;background:#fff;border-top:1px solid #222;border-bottom:1px solid #ddd;}
+	#mainmenu {display:block;background:#fff;border-top:1px solid #222;border-bottom:1px solid #ddd; margin:0 -10px !important;}
 	.mainnav li.first {background:#222}.mainnav li.first a {color:#fff;font:20px/23px 'Open Sans Condensed', sans-serif;}.mainnav li.first a:hover {color:#bbb;}
 		.mainnav {text-transform:uppercase;}
 		.mainnav:after{content:"";display:block;clear:both;}
@@ -570,14 +570,14 @@ li#current-home-nav a{background:url(http://3.bp.blogspot.com/-SJHB12hIAVI/UD4Ci
 
 
 #headlines {
-	color: #444;margin:0;padding:0;height: 20px;border-top:1px solid #555;
+	color: #444;margin:0;padding:0;height: 40px;border-top:1px solid #555; background:#2B2B2B; margin:0 -10px;
 	}
 #headlines h4 {
 	float: left;
 	display: inline-block;
 	text-transform: uppercase;
-	margin: 0px ;background: url(http://3.bp.blogspot.com/-_tVrS0ayyK4/Tk69JrhEUkI/AAAAAAAAAn4/53zghG0gCjM/s1600/headlines.png) no-repeat 0 0;
-	padding: 0;height: 20px;width:87px;
+	margin: 0px ;background: url(http://1.bp.blogspot.com/-9XxFlBBixNY/UwOEe2kbQUI/AAAAAAAABAA/qpuG5VWxQKM/s1600/headlines.png) no-repeat 0 0;
+	padding: 0;height: 40px;width:130px;
 	}
 #headlines a.headline_title {
 	display: inline;
@@ -721,7 +721,7 @@ div.scrollingtext{
 		#subnews .col .postmeta span {margin-left:3px}
 		
 /*-----  FOOTER  -----*/
-#footer {color:#f5f6f7;width:960px;margin:0 auto;background:#111;border-top:1px solid #ebebeb;padding:20px 10px;border-right:solid 1px #5a5a5a;border-left:solid 1px #5a5a5a;overflow:hidden;}
+#footer {color:#f5f6f7;width:1024px;margin:0 auto;background:#111;border-top:1px solid #ebebeb;padding:20px 10px;border-right:solid 1px #5a5a5a;border-left:solid 1px #5a5a5a;overflow:hidden;}
 	#footer input,#footer select {background:#333;border:1px solid #888;color:#f5f6f7}
 	#footer select {margin-bottom:12px;}
 	#footer .flickr_widget img {margin:6px}
