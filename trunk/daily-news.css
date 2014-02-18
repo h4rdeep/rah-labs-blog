@@ -1,5 +1,6 @@
 /*daily news css*/
 
+@import url('http://fonts.googleapis.com/css?family=Oswald');
 /* Navbar Frame
 ----------------------------- */
 #sidebar .tab_content .widget h2,.navbar {
@@ -404,7 +405,11 @@ form.search_style2 fieldset{margin:0;padding:0;border:none;width:300px;height:30
 	form.search_style2 .submit_style2{float:left;padding:0;width:17px;cursor:pointer;height:17px;margin:7px 0 0 8px}
 	
 /*  HEADER */
-#header{display:block;overflow:hidden;}
+#header{ background: none repeat scroll 0 0 #D12F2F;
+    display: block;
+    margin: 0 -10px;
+    overflow: hidden;
+    padding: 0 10px;}
 	#header_banner{display:block;line-height:0;max-width:960px;} /* If single-banner header is activated on theme control panel */
 	/* ={ 2 COLUMN HEADER LAYOUT } */	
 	#header .left-2col {width:auto;display:block;margin-right:15px;float:left}
@@ -570,7 +575,7 @@ li#current-home-nav a{background:url(http://3.bp.blogspot.com/-SJHB12hIAVI/UD4Ci
 
 
 #headlines {
-	color: #444;margin:0;padding:0;height: 40px;border-top:1px solid #555; background:#2B2B2B; margin:0 -10px;
+	color: #fff;margin:0;padding:0;height: 40px;border-top:1px solid #555; background:#2B2B2B; margin:0 -10px;
 	}
 #headlines h4 {
 	float: left;
@@ -588,7 +593,7 @@ li#current-home-nav a{background:url(http://3.bp.blogspot.com/-SJHB12hIAVI/UD4Ci
 	text-decoration: none;
 	}
 #headlines a.headline_title:hover {
-	color: #999;
+	color: #D12F2F;
 	text-decoration: underline;
 	}
 #headlines p {
