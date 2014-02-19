@@ -1486,5 +1486,6 @@ text-decoration:none;
 #res-menu-1 {font-size: 10px;text-transform: uppercase;}
 #res-menu-1 li a:active {color: #666 !important;}
 .PageList LI.selected A {color: #FF6862 !important;}
-#masthead-social {float: right;}
+#masthead-social {line-height:40px; position:absolute; right:0;}
 #masthead-social li {display: inline-block;}
+#list {position: relative;}
