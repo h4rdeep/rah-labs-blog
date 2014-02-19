@@ -1483,5 +1483,8 @@ text-decoration:none;
     margin: 0 1.5em 0 0;
 	padding-bottom:0;
 }
-.selected a {color: #CCCCCC;}
 #res-menu-1 {font-size: 10px;text-transform: uppercase;}
+#res-menu-1 li a:active {color: #666 !important;}
+.PageList LI.selected A {color: #FF6862 !important;}
+#masthead-social {float: right;}
+#masthead-social li {display: inline-block;}
