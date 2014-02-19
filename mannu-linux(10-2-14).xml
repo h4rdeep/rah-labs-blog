@@ -29,19 +29,22 @@
 </b:if>
 
 
-    <b:skin><![CDATA[/*
------------------------------------------------
-Theme Name: Exploi-DB Blogger Theme
-Theme URI: 
-Version: 2.0
+    <b:skin><![CDATA[
+/*-----------------------------------------------
+Theme Name: Exploit-DB Blogger Template
+Designer : Hardeep Singh
+Created: Jan, 2014
+Theme URI: http://hackerschronicle.com
 Author: Hardeep Singh
+Author URI: http://hackerschronicle.com
+Description: Main CSS file for Mannulinux.org (error1046's Blog)
 ----------------------------------------------- */
 
 ]]></b:skin>
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'/>
-<link href='http://rah-labs-blog.googlecode.com/svn/trunk/mannu-linux.css' rel='stylesheet' type='text/css'/><!--all css -->
-<script src='http://nguoiaolam.googlecode.com/files/ddlevelsmenu.js' type='text/javascript'/>
+<link href='https://hackers-chronicle.googlecode.com/svn/trunk/mannu-linux.css' rel='stylesheet' type='text/css'/><!--all css -->
+<script src='https://hackers-chronicle.googlecode.com/svn/trunk/ddlevelsmenu.js' type='text/javascript'/>
 
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <style type='text/css'>
@@ -226,11 +229,11 @@ ddlevelsmenu.setup(&quot;ddtopmenubar&quot;, &quot;topbar&quot;) //ddlevelsmenu.
 
       <div id='crosscol-wrapper' style='text-align:center'>
         <b:section class='crosscol' id='crosscol' showaddelement='no'><!--remove disqus -->
-		<!--
+		
           <b:widget id='HTML2' locked='false' mobile='yes' title='Disqus' type='HTML'>
             <b:includable id='main'>
             <script type='text/javascript'>
-                var disqus_shortname = &#39;testinglab&#39;;
+                var disqus_shortname = &#39;mannulinux&#39;;
                 var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
 
                 if (!disqus_blogger_current_url.length) {
@@ -270,7 +273,7 @@ ddlevelsmenu.setup(&quot;ddtopmenubar&quot;, &quot;topbar&quot;) //ddlevelsmenu.
 
             </script>
 </b:includable>
-          </b:widget>-->
+          </b:widget>
           <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'>
             <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
