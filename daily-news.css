@@ -372,7 +372,8 @@ a:hover.view-all { background: url(http://4.bp.blogspot.com/-gxzxfh1m3pA/UIPfrTp
 		.author-info p a {font-style:normal;font-weight:bold;}
 
 /*  MASTHEAD */
-#masthead {background:#fff; display:block;overflow:hidden;padding:3px 10px;margin:0 auto;width:1024px;border-top:3px solid #333;border-bottom:1px solid #999;}
+#masthead {background:#fff; display:block;overflow:hidden;margin:0 auto;width:1045px;border:none;}
+	.list .widget {margin-bottom: 0;}
 	.mastheadnav { font-size: 13px;line-height:13px;width:650px;margin-top:5px;float:left}
 	.mastheadnav li {float:left;position:relative;color:#333;padding-left:0px;margin-left:10px;}
 	.mastheadnav li.first {border-left:none;padding-left:0;margin-left:0;}
@@ -395,6 +396,7 @@ a:hover.view-all { background: url(http://4.bp.blogspot.com/-gxzxfh1m3pA/UIPfrTp
 	
 	#masthead .search {float:right}
 	/*----- [[ Search Widget ]] -----*/
+	.search .widget {margin-bottom: 0;}
 form.search_style1{margin:0;padding:0;border:none;}
 	form.search_style1 fieldset {padding:0;}
 	form.search_style1 .text {margin:0;border:none;}
@@ -429,7 +431,7 @@ form.search_style2 fieldset{margin:0;padding:0;border:none;width:300px;height:30
 	
 	/*  3 COLUMN HEADER LAYOUT */
 	#header .col-3colLeft {min-height:70px;float:left;width:450px;display:block;margin:10px 0 0;}
-	#header .col-3colRight {float:right;width:468px;height:60px;margin:10px 0 4px;display:block;border:1px solid #eee;}
+	#header .col-3colRight {float:right;width:480px;height:60px;margin:10px 0 4px;display:block;}
 #header .theRight {float:right;width:468px;height:40px;margin: 0;display:block;}
 	#header .col-3colLeft img {margin:0;border:none;display:block;}
 	#header .col-3colLeft  a {color:#222;}
@@ -754,7 +756,7 @@ div.scrollingtext{
     margin: 0 auto;
     overflow: hidden;
     padding: 10px;
-    width: 1026px;}
+    width: 1024px;}
 		#footer_data a{color:#ccc;}
 		#footer_data a:hover{text-decoration:underline;}
 		ul.footerpages {display:block;padding:0 0 7px;margin:0 0 7px;border-bottom:1px dotted #aaa;overflow:hidden}
@@ -1458,5 +1460,26 @@ text-decoration:none;
 .heading h1 {  line-height:1.2em; font-size:18px;  color:#333; text-transform:uppercase;top:0; }
 .heading a {font-size:0px;}
 .heading b{font-size:18px;}
-.top-left{width:70%; float:left;}
+.top-left{width:86%; float:left;}
 .top-right{float:right;}
+
+#search-this #search-text {
+    background: none repeat scroll 0 0 #2B2B2B;
+    border: medium none;
+    color: #FFFFFF;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    width: 100px;
+}
+
+#res-menu-1 li {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 1.5em 0 0;
+}
+.selected a {color: #CCCCCC;}
+#res-menu-1 {font-size: 10px;text-transform: uppercase;}
