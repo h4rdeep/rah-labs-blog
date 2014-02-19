@@ -1,4 +1,13 @@
-//related posts Daily news JavaScript Document
+/*-----------------------------------------------
+Theme Name: Daily Times
+Designer : Hardeep Singh
+Created: Feb, 2014
+Theme URI: http://hackerschronicle.com
+Author: Hardeep Singh
+Author URI: http://hackerschronicle.com
+Description: Daily Times Related News JavaScript 
+----------------------------------------------- */
+
 
 imgr = new Array();
 imgr[0] = "http://1.bp.blogspot.com/-QwlK2Rb-nns/TvhNDtJ4RnI/AAAAAAAACak/TgSjOqStaNc/s1600/empty_thumb.gif";

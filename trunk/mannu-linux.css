@@ -1,5 +1,13 @@
+/*-----------------------------------------------
+Theme Name: Exploit-DB Blogger Template
+Designer : Hardeep Singh
+Created: Jan, 2014
+Theme URI: http://hackerschronicle.com
+Author: Hardeep Singh
+Author URI: http://hackerschronicle.com
+Description: Main CSS file for Mannulinux.org (error1046's Blog)
+----------------------------------------------- */
 @charset "utf-8";
-/* manish blogger CSS Document */
 #navbar-iframe, .date-header {display:none !important}
 
 body{background: url("http://www.exploit-db.com/wp-content/themes/exploit/images/body_bg.jpg") repeat-x scroll left top #000000;
