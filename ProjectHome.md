@@ -1,0 +1,1 @@
+It Contains all web resources of RAH Labs Blog Project viz. CSS files, JS files and some JQuery
